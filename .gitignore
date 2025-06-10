@@ -1,0 +1,57 @@
+# === NODE/REACT ===
+
+# dependências
+node_modules/
+
+# build e produção
+build/
+dist/
+
+# arquivos temporários do Vite, React ou Webpack
+.cache/
+*.cache
+
+# arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# arquivos do ambiente
+.env
+.env.*.local
+
+# arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# === PYTHON ===
+
+# arquivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ambientes virtuais
+env/
+venv/
+ENV/
+.venv/
+
+# arquivos de configuração locais
+*.env
+*.env.*
+
+# arquivos de log
+*.log
+
+# notebooks temporários
+.ipynb_checkpoints
+
+# configurações do IDE/editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# arquivos do sistema
+.DS_Store

@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h3{
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+p{
+  width: 60%;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+button{
+  width: 210px;
+  background-color: rgb(21, 89, 144);
+  color: #FFF;
+  border: 0;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+input{
+  color: rgb(23, 46, 46);
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+}
+
+.inputPuzzle{
+  margin-bottom: 10px;
+  width: 300px;
+  height: 30px;
+  outline: none;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.puzzle-container {
+  display: flex;
+  justify-content: center; /* Centraliza os elementos horizontalmente */
+  align-items: center;    /* Centraliza os elementos verticalmente */
+  gap: 10px;              /* Espaçamento entre os elementos */
+}
+
+.puzzle-container-resolution {
+  display: flex;   /* Centraliza os elementos verticalmente */
+  gap: 10px;              /* Espaçamento entre os elementos */
+}
+
+.puzzle-item {
+  display: flex;           /* Define o contêiner como flexbox */
+  flex-direction: column;  /* Alinha os itens em coluna */
+  align-items: center;     /* Centraliza os itens horizontalmente */
+   /* Centraliza os itens verticalmente */
+  text-align: center;      
+}
+
+
