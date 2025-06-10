@@ -49,6 +49,7 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 6. **Acesse a API**:
    - Acesse a documentação interativa da API no navegador: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
+---
 
 ## Como rodar o frontend (React) manualmente
 
@@ -69,6 +70,8 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
 4. **Acesse a aplicação**:
    - Abra o navegador e acesse: [http://localhost:3000](http://localhost:3000)
+
+---
 
 ## Estrutura do Projeto
 
