@@ -49,39 +49,6 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 6. **Acesse a API**:
    - Acesse a documentação interativa da API no navegador: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
----
-
-## Como rodar o backend (API) manualmente no CMD do Windows
-
-1. **Acesse a pasta do backend**:
-   ```cmd
-   cd python_api
-   ```
-
-2. **Crie um ambiente virtual (opcional, mas recomendado)**:
-   ```cmd
-   python -m venv venv
-   ```
-
-3. **Ative o ambiente virtual**:
-   ```cmd
-   venv\Scripts\activate
-   ```
-
-4. **Instale as dependências**:
-   ```cmd
-   pip install fastapi uvicorn
-   ```
-
-5. **Inicie o servidor**:
-   ```cmd
-   uvicorn main_api:app --reload
-   ```
-
-6. **Acesse a API**:
-   - Abra o navegador e acesse: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-
----
 
 ## Como rodar o frontend (React) manualmente
 
@@ -102,30 +69,6 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
 4. **Acesse a aplicação**:
    - Abra o navegador e acesse: [http://localhost:3000](http://localhost:3000)
-
----
-
-## Como rodar o frontend (React) manualmente no CMD do Windows
-
-1. **Acesse a pasta do frontend**:
-   ```cmd
-   cd puzzle8-react
-   ```
-
-2. **Instale as dependências**:
-   ```cmd
-   npm install
-   ```
-
-3. **Inicie o servidor de desenvolvimento**:
-   ```cmd
-   npm start
-   ```
-
-4. **Acesse a aplicação**:
-   - Abra o navegador e acesse: [http://localhost:3000](http://localhost:3000)
-
----
 
 ## Estrutura do Projeto
 
